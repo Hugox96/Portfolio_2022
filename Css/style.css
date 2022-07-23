@@ -62,4 +62,17 @@ header{
     padding: 20px 0;
 }
 
+/* Estilando a classe nome para destacar o nome da pessoa */
+.nome{
+    font-size: large;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+/* Estilando a classe navbar */
+.navbar{
+    display:flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
 

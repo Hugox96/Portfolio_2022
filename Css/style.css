@@ -16,7 +16,7 @@
 --container-color:#171b3c;
 --heading-color:#222321;
 --box-color:#0d0f26;
---bg-color:rgb(9, 23, 105);
+--bg-color:rgb(227, 229, 241);
 }
 
 body{
@@ -74,5 +74,12 @@ header{
     display:flex;
     align-items: center;
     column-gap: 1.5rem;
+}
+
+.nav-link{
+    font-size:0.94rem;
+    padding:4px 8px;
+    border-radius: 0.2rem;
+    color:var(--bg-color);
 }
 

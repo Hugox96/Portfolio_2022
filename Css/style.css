@@ -40,12 +40,19 @@ li{
     list-style:none;
 }
 
+/* Editando a classe container para armazenas os links do header */
+.container{
+    max-width: 960px;
+    margin:auto;
+    width: 100%;
+} 
+
 header{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-z-index:100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:100;
 }
 
 .nav{
@@ -55,10 +62,4 @@ z-index:100;
     padding: 20px 0;
 }
 
-
-/* .container{
-    max-width: 960px;
-    margin:auto;
-    width: 100%;
-} */
 

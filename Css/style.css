@@ -108,3 +108,15 @@ header{
     width: 24px;
     transition: 0.3s;
 }
+
+.move .linha1{
+  transform: rotate(-45deg) translate(-5px,5px);   
+}
+
+.move .linha2{
+   opacity:0;
+}
+
+.move .linha3{
+    transform: rotate(-45deg) translate(-5px,5px)   
+}

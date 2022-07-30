@@ -65,8 +65,8 @@ header{
 /* Estilando a classe nome para destacar o nome da pessoa */
 .nome{
     font-size: large;
-    font-weight: 600;
-    color: var(--main-color);
+    font-weight: bold;
+    color:#77040a;
 }
 
 /* Estilizando a classe navbar */
@@ -145,7 +145,7 @@ header{
     border-radius: 50%;
     background: #77040a;
     overflow: hidden;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .home-img{
@@ -175,4 +175,29 @@ header{
 .home-text h2{
     font-size:2rem;
     line-height: 3rem;
+}
+
+.home-text h2:hover{
+    color: #77040a;
+    transition: 0.3s all linear;
+}
+
+.social-home{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    line-height: 4rem;
+}
+
+.social-home .bx{
+    font-size:1rem;
+    padding:10px;
+    border-radius:50%;
+    color: var(--bg-color);
+    background:#797a80;
+}
+
+.social-home .bx:hover{
+    background: #77040a;
+    transition: 0.3s all linear;
 }

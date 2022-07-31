@@ -14,7 +14,7 @@
 --main-color:#647bff;
 --body-color:#090a1a;
 --container-color:#171b3c;
---heading-color:#222321;
+--heading-color:#c1121f;
 --box-color:#0d0f26;
 --bg-color:rgb(227, 229, 241);
 }
@@ -62,11 +62,11 @@ header{
     padding: 20px 0;
 }
 
-/* Estilando a classe nome para destacar o nome da pessoa */
+/* Estilizando a classe nome para destacar o nome da pessoa */
 .nome{
     font-size: large;
     font-weight: bold;
-    color:#77040a;
+    color: var(--heading-color);
 }
 
 /* Estilizando a classe navbar */
@@ -169,7 +169,7 @@ header{
     align-items: center;
     column-gap: 0.5rem;
     font-size: 1.1rem;
-    color:#77040a;
+    color: var(--heading-color);
 }
 
 .home-text h2{
@@ -200,4 +200,12 @@ header{
 .social-home .bx:hover{
     background: #77040a;
     transition: 0.3s all linear;
+}
+
+/* Heading*/
+.heading{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color:#c1121f;
+    text-align: center;
 }

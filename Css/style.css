@@ -131,7 +131,7 @@ header{
 
 .home-content{
     position: relative;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -140,20 +140,20 @@ header{
 }
 
 .home-img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 118px;
     border-radius: 50%;
     background: #77040a;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
-.home-img{
+/* .home-img{
     width: 100px;
     height: 100px;
     object-fit: cover;
     object-position: center;
-}
+} */
 
 .home-text{
     display: flex;
@@ -167,14 +167,14 @@ header{
     position: relative;
     display: flex;
     align-items: center;
-    column-gap: 0.5rem;
-    font-size: 1.1rem;
+    column-gap: 0.7rem;
+    font-size: 1.5rem;
     color: var(--heading-color);
 }
 
 .home-text h2{
     font-size:2rem;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 .home-text h2:hover{
@@ -186,7 +186,7 @@ header{
     display: flex;
     align-items: center;
     column-gap: 1rem;
-    line-height: 4rem;
+    line-height: 5rem;
 }
 
 .social-home .bx{
@@ -204,8 +204,9 @@ header{
 
 /* Heading*/
 .heading{
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     color:#c1121f;
     text-align: center;
+    margin-bottom: 1rem;
 }

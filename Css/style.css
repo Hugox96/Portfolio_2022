@@ -214,7 +214,7 @@ header{
 .sobre-conteudo{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap:1.5rem;
+    gap:2rem;
 }
 
 .conteudo-info span{
@@ -253,5 +253,11 @@ header{
     transition: 0.3s all linear;
 }
 
+.sobre-texto{
+    font-size:0.938rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 1.9rem;
+}
 
 

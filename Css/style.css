@@ -224,5 +224,13 @@ header{
     color: #c1121f;
 }
 
+.conteudo-info h2{
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    margin: 1rem 0;
+
+}
+
 
 

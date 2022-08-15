@@ -264,8 +264,38 @@ header{
 .serviços-content{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    gap: 1rem;
+}
 
+.serviços-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    margin-left: 30%;
+    margin-right: 16%;
+    background:  var(--container-color);
+    border-radius: 0.9rem;
+}
+
+.serviços-box .bx{
+    font-size: 1.4rem;
+    color:#c1121f;
+    padding: 10px;
+    border-radius: 5rem;
+    border: 2px dashed #ffffff;
+}
+
+.serviços-box h2{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color:#c1121f;
+}
+
+.serviços-box p{
+    font-size: 0.8rem;
 }
 
 

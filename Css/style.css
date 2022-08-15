@@ -260,4 +260,12 @@ header{
     margin-top: 1.9rem;
 }
 
+/* Estilizando a seção de serviços*/
+.serviços-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+
+}
+
 
